@@ -1,15 +1,184 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link css here only when ccs is not imported in js yet -->
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <title>Hello</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- <script src="./js/app.js" type="module"></script> -->
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link css here only when ccs is not imported in js yet -->
+  <link rel="stylesheet" href="style.css">
+  <title>Hello</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a><img src="./fire-solid.svg" alt="premier logo">Coaching</a>
+      <a><img src="./eye-solid.svg" alt="deuxième logo">Formules</a>
+      <a><img src="./hand-spock-regular.svg" alt="troisième logo">Je m'abonne</a>
+
+    </nav>
+    <p class="rentrée">la rentrée fitness <span> 1 mois gratuit !</span></p>
+    <h1 class="title">Sports Factory <span>Salles de sport</span></h1>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="title">Réserver votre place pour le <span>prochain cours</span></h2>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">Lyon 6 - Foch</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>05 Janvier 2021</td>
+            <td>15h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+
+          <tr>
+            <td>10 Janvier 2021</td>
+            <td>16h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+
+          <tr>
+            <td>05 Janvier 2021</td>
+            <td>15h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+
+          <tr>
+            <td>10 Janvier 2021</td>
+            <td>16h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">Lyon 5 - Vieux lyon</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>05 Janvier 2021</td>
+            <td>15h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+
+          <tr>
+            <td>10 Janvier 2021</td>
+            <td>16h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+
+          <tr>
+            <td>05 Janvier 2021</td>
+            <td>15h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+
+          <tr>
+            <td>10 Janvier 2021</td>
+            <td>16h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">Lyon 2 - Bellecour</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>05 Janvier 2021</td>
+            <td>15h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+
+          <tr>
+            <td>10 Janvier 2021</td>
+            <td>16h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+
+          <tr>
+            <td>05 Janvier 2021</td>
+            <td>15h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+
+          <tr>
+            <td>10 Janvier 2021</td>
+            <td>16h30</td>
+            <td><a>Réserver ce créneau</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2 class="title">Pour valider votre réservation,<span>compléter ce formulaire</span></h2>
+      <form>
+        <fieldset>
+          <legend>Vos coordonnées</legend>
+          <label>Votre prénom :<input type="text"></label>
+          <label>Votre nom :<input type="text"></label>
+          <label>Votre mail :<input type="text"></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Quelles sont les raisons ?</legend>
+          <label>Besoins de me détendre <input type="checkbox" name="besoins" value="détente"></label>
+          <label>Mon médecin ma conseillé de venir <input type="checkbox" name="besoins" value="médecin"></label>
+          <label>Je veux tester avec mes amis <input type="checkbox" name="besoins" value="amis"></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Voulez-vous souscrire à notre programme de fidélité ?</legend>
+          <label>Oui <input type="radio"></label>
+          <label>Non <input type="radio"></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Comment avez-vous connu ila Yoga ?</legend>
+          <select>
+            <option>par internet</option>
+            <option>par des amis</option>
+            <option>par flyers</option>
+          </select>
+        </fieldset>
+
+        <button type="submit">Envoyer</button>
+
+      </form>
+
+
+
+
+    </section>
+
+    <footer>
+      <img src="logovert.png">
+      <p>copyright Eden School</p>
+    </footer>
+
+  </main>
+
+
+  <script src="./js/app.js" type="module"></script>
+
+</body>
+
 </html>
